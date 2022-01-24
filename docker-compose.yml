@@ -1,0 +1,8 @@
+version: '3'
+services:
+ tommy:
+  build:
+   context: ./tomcat-server
+  image: tomcatgol
+  ports:
+  - "8090:8080"
